@@ -1,0 +1,128 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="mcpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="aiGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00ff88;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="url(#mcpBg)"/>
+  
+  <!-- AI Brain/Assistant visualization -->
+  <g transform="translate(400, 200)">
+    <!-- Central AI brain -->
+    <circle cx="0" cy="0" r="80" fill="url(#aiGlow)" opacity="0.3"/>
+    
+    <!-- Brain outline -->
+    <path d="M-60,-40 C-70,-60 -40,-70 -20,-65 C0,-75 20,-65 40,-70 C70,-60 60,-40 50,-20 C60,0 50,20 40,40 C20,50 0,45 -20,50 C-40,45 -60,20 -60,0 Z" 
+          fill="none" stroke="#00ff88" stroke-width="3" opacity="0.8"/>
+    
+    <!-- Neural network connections -->
+    <g stroke="#00ff88" stroke-width="2" opacity="0.6">
+      <line x1="-40" y1="-30" x2="-20" y2="-10"/>
+      <line x1="-20" y1="-30" x2="0" y2="-10"/>
+      <line x1="0" y1="-30" x2="20" y2="-10"/>
+      <line x1="20" y1="-30" x2="40" y2="-10"/>
+      
+      <line x1="-30" y1="0" x2="-10" y2="0"/>
+      <line x1="-10" y1="0" x2="10" y2="0"/>
+      <line x1="10" y1="0" x2="30" y2="0"/>
+      
+      <line x1="-40" y1="30" x2="-20" y2="10"/>
+      <line x1="-20" y1="30" x2="0" y2="10"/>
+      <line x1="0" y1="30" x2="20" y2="10"/>
+      <line x1="20" y1="30" x2="40" y2="10"/>
+    </g>
+    
+    <!-- Neural nodes -->
+    <g fill="#00ff88">
+      <circle cx="-40" cy="-30" r="3"/>
+      <circle cx="-20" cy="-30" r="3"/>
+      <circle cx="0" cy="-30" r="3"/>
+      <circle cx="20" cy="-30" r="3"/>
+      <circle cx="40" cy="-30" r="3"/>
+      
+      <circle cx="-30" cy="0" r="3"/>
+      <circle cx="-10" cy="0" r="3"/>
+      <circle cx="10" cy="0" r="3"/>
+      <circle cx="30" cy="0" r="3"/>
+      
+      <circle cx="-40" cy="30" r="3"/>
+      <circle cx="-20" cy="30" r="3"/>
+      <circle cx="0" cy="30" r="3"/>
+      <circle cx="20" cy="30" r="3"/>
+      <circle cx="40" cy="30" r="3"/>
+    </g>
+  </g>
+  
+  <!-- Data streams -->
+  <g stroke="#64ffda" stroke-width="2" fill="none" opacity="0.7">
+    <!-- Left side data stream -->
+    <path d="M50,150 Q200,100 350,180"/>
+    <path d="M50,200 Q200,160 350,200"/>
+    <path d="M50,250 Q200,220 350,220"/>
+    
+    <!-- Right side data stream -->
+    <path d="M450,180 Q600,100 750,150"/>
+    <path d="M450,200 Q600,160 750,200"/>
+    <path d="M450,220 Q600,220 750,250"/>
+  </g>
+  
+  <!-- Floating icons representing different functionalities -->
+  <g fill="#ffffff" opacity="0.8">
+    <!-- Calendar icon -->
+    <g transform="translate(150, 100)">
+      <rect x="0" y="0" width="30" height="25" rx="2" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <line x1="7" y1="0" x2="7" y2="-5" stroke="#ffffff" stroke-width="2"/>
+      <line x1="23" y1="0" x2="23" y2="-5" stroke="#ffffff" stroke-width="2"/>
+      <line x1="0" y1="8" x2="30" y2="8" stroke="#ffffff" stroke-width="1"/>
+      <circle cx="8" cy="15" r="1"/>
+      <circle cx="15" cy="15" r="1"/>
+      <circle cx="22" cy="15" r="1"/>
+    </g>
+    
+    <!-- Document icon -->
+    <g transform="translate(620, 100)">
+      <rect x="0" y="0" width="20" height="25" rx="1" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <line x1="4" y1="6" x2="16" y2="6" stroke="#ffffff" stroke-width="1"/>
+      <line x1="4" y1="10" x2="16" y2="10" stroke="#ffffff" stroke-width="1"/>
+      <line x1="4" y1="14" x2="12" y2="14" stroke="#ffffff" stroke-width="1"/>
+    </g>
+    
+    <!-- Project management icon -->
+    <g transform="translate(150, 300)">
+      <circle cx="10" cy="10" r="8" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <path d="M10,5 L13,8 L10,11 L7,8 Z" fill="#ffffff"/>
+    </g>
+    
+    <!-- Database icon -->
+    <g transform="translate(620, 300)">
+      <ellipse cx="12" cy="5" rx="12" ry="4" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <ellipse cx="12" cy="12" rx="12" ry="4" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <ellipse cx="12" cy="19" rx="12" ry="4" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <line x1="0" y1="5" x2="0" y2="19" stroke="#ffffff" stroke-width="2"/>
+      <line x1="24" y1="5" x2="24" y2="19" stroke="#ffffff" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Data packets -->
+  <g fill="#64ffda" opacity="0.6">
+    <rect x="100" y="140" width="8" height="4" rx="1"/>
+    <rect x="120" y="155" width="6" height="3" rx="1"/>
+    <rect x="140" y="170" width="7" height="4" rx="1"/>
+    
+    <rect x="650" y="140" width="8" height="4" rx="1"/>
+    <rect x="670" y="155" width="6" height="3" rx="1"/>
+    <rect x="690" y="170" width="7" height="4" rx="1"/>
+  </g>
+  
+  <!-- Title overlay -->
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    Personal AI Assistant
+  </text>
+</svg>

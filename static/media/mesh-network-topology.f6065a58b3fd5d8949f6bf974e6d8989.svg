@@ -1,0 +1,163 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="meshBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="baseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="url(#meshBg)"/>
+  
+  <!-- Network connections -->
+  <g stroke="#45b7d1" stroke-width="2" fill="none" opacity="0.7">
+    <!-- Main base station connections -->
+    <line x1="400" y1="200" x2="200" y2="120"/>
+    <line x1="400" y1="200" x2="600" y2="120"/>
+    <line x1="400" y1="200" x2="150" y2="280"/>
+    <line x1="400" y1="200" x2="650" y2="280"/>
+    <line x1="400" y1="200" x2="300" y2="300"/>
+    <line x1="400" y1="200" x2="500" y2="300"/>
+    
+    <!-- Inter-node connections -->
+    <line x1="200" y1="120" x2="300" y2="100"/>
+    <line x1="600" y1="120" x2="500" y2="100"/>
+    <line x1="300" y1="100" x2="500" y2="100"/>
+    <line x1="150" y1="280" x2="300" y2="300"/>
+    <line x1="650" y1="280" x2="500" y2="300"/>
+    <line x1="200" y1="120" x2="150" y2="280"/>
+    <line x1="600" y1="120" x2="650" y2="280"/>
+    
+    <!-- Additional mesh connections -->
+    <line x1="300" y1="100" x2="150" y2="280"/>
+    <line x1="500" y1="100" x2="650" y2="280"/>
+  </g>
+  
+  <!-- Signal propagation rings -->
+  <g stroke="#45b7d1" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="400" cy="200" r="50"/>
+    <circle cx="400" cy="200" r="80"/>
+    <circle cx="400" cy="200" r="110"/>
+  </g>
+  
+  <!-- Base station (central) -->
+  <g transform="translate(400, 200)">
+    <circle cx="0" cy="0" r="20" fill="url(#baseGlow)" opacity="0.5"/>
+    <rect x="-12" y="-12" width="24" height="24" rx="3" fill="#4ecdc4" stroke="#ffffff" stroke-width="2"/>
+    <!-- Antenna -->
+    <line x1="0" y1="-12" x2="0" y2="-25" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="0" cy="-27" r="2" fill="#ffffff"/>
+    <!-- Signal waves -->
+    <g stroke="#4ecdc4" stroke-width="1" fill="none" opacity="0.6">
+      <circle cx="0" cy="0" r="18"/>
+      <circle cx="0" cy="0" r="25"/>
+    </g>
+  </g>
+  
+  <!-- Mesh nodes -->
+  <g fill="#ff6b6b" stroke="#ffffff" stroke-width="2">
+    <!-- Top nodes -->
+    <g transform="translate(200, 120)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <g transform="translate(300, 100)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <g transform="translate(500, 100)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <g transform="translate(600, 120)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <!-- Bottom nodes -->
+    <g transform="translate(150, 280)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <g transform="translate(300, 300)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <g transform="translate(500, 300)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+    
+    <g transform="translate(650, 280)">
+      <circle cx="0" cy="0" r="8" fill="url(#nodeGlow)" opacity="0.3"/>
+      <circle cx="0" cy="0" r="8"/>
+      <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+    </g>
+  </g>
+  
+  <!-- Data packets traveling through network -->
+  <g fill="#ffd93d" opacity="0.8">
+    <circle cx="320" cy="160" r="3"/>
+    <circle cx="480" cy="160" r="3"/>
+    <circle cx="225" cy="200" r="3"/>
+    <circle cx="575" cy="200" r="3"/>
+    <circle cx="350" cy="250" r="3"/>
+    <circle cx="450" cy="250" r="3"/>
+  </g>
+  
+  <!-- Network statistics -->
+  <g transform="translate(50, 50)">
+    <rect x="0" y="0" width="140" height="80" rx="5" fill="rgba(255,255,255,0.05)" stroke="#45b7d1" stroke-width="1"/>
+    <g fill="#45b7d1" font-family="Arial, sans-serif" font-size="10">
+      <text x="10" y="20">Network Status: ACTIVE</text>
+      <text x="10" y="35">Nodes Online: 8/8</text>
+      <text x="10" y="50">Redundancy: 98.5%</text>
+      <text x="10" y="65">Latency: 12ms avg</text>
+    </g>
+  </g>
+  
+  <!-- Disaster resilience indicator -->
+  <g transform="translate(610, 50)">
+    <rect x="0" y="0" width="140" height="60" rx="5" fill="rgba(46,204,113,0.2)" stroke="#2ecc71" stroke-width="1"/>
+    <g fill="#2ecc71" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      <text x="70" y="20" text-anchor="middle">DISASTER READY</text>
+      <text x="70" y="35" text-anchor="middle">Auto-Healing: ON</text>
+      <text x="70" y="50" text-anchor="middle">Fault Tolerance: HIGH</text>
+    </g>
+  </g>
+  
+  <!-- MIMO antenna indicators -->
+  <g transform="translate(50, 320)">
+    <g fill="#ffd93d" font-family="Arial, sans-serif" font-size="10">
+      <text x="0" y="0">MIMO Configuration</text>
+      <text x="0" y="15">• Directional Elements</text>
+      <text x="0" y="30">• Omnidirectional Backup</text>
+      <text x="0" y="45">• Patent US20240129000A1</text>
+    </g>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    Disaster-Resilient Mesh Network
+  </text>
+</svg>

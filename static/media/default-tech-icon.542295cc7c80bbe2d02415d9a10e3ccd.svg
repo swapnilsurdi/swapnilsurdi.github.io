@@ -1,0 +1,21 @@
+<svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <defs>
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="25" cy="25" r="24" fill="url(#techGradient)" stroke="#ffffff" stroke-width="1"/>
+  
+  <!-- Tech symbol - gear/cog -->
+  <g transform="translate(25, 25)" fill="none" stroke="#ffffff" stroke-width="2">
+    <!-- Outer gear teeth -->
+    <path d="M-8,-12 L-6,-14 L6,-14 L8,-12 L12,-8 L14,-6 L14,6 L12,8 L8,12 L6,14 L-6,14 L-8,12 L-12,8 L-14,6 L-14,-6 L-12,-8 Z"/>
+    <!-- Inner circle -->
+    <circle cx="0" cy="0" r="6"/>
+    <!-- Center hole -->
+    <circle cx="0" cy="0" r="3" fill="#ffffff"/>
+  </g>
+</svg>

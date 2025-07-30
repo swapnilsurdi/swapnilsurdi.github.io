@@ -1,0 +1,147 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="qmsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a6741;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="qmsGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="url(#qmsBg)"/>
+  
+  <!-- Central ISO 13485 badge -->
+  <g transform="translate(400, 200)">
+    <!-- Glow effect -->
+    <circle cx="0" cy="0" r="100" fill="url(#qmsGlow)" opacity="0.4"/>
+    
+    <!-- ISO badge outline -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#27ae60" stroke-width="4"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#27ae60" stroke-width="2"/>
+    
+    <!-- ISO text -->
+    <text x="0" y="-15" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="18" font-weight="bold">
+      ISO
+    </text>
+    <text x="0" y="10" text-anchor="middle" fill="#27ae60" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
+      13485
+    </text>
+    
+    <!-- Quality checkmarks -->
+    <g stroke="#27ae60" stroke-width="2" fill="none">
+      <path d="M-20,25 L-15,30 L-5,20" opacity="0.8"/>
+      <path d="M5,25 L10,30 L20,20" opacity="0.8"/>
+    </g>
+  </g>
+  
+  <!-- Platform integration icons around the center -->
+  <g fill="#ffffff" opacity="0.8">
+    <!-- Slack (top left) -->
+    <g transform="translate(200, 100)">
+      <rect x="0" y="0" width="40" height="25" rx="3" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="20" y="17" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+        Slack
+      </text>
+    </g>
+    
+    <!-- GitHub (top right) -->
+    <g transform="translate(560, 100)">
+      <circle cx="20" cy="12" r="15" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="20" cy="12" r="8" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+      <circle cx="12" cy="20" r="3" fill="none" stroke="#ffffff" stroke-width="1"/>
+      <circle cx="28" cy="20" r="3" fill="none" stroke="#ffffff" stroke-width="1"/>
+      <circle cx="20" cy="25" r="3" fill="none" stroke="#ffffff" stroke-width="1"/>
+    </g>
+    
+    <!-- Google Drive (bottom left) -->
+    <g transform="translate(200, 300)">
+      <path d="M20,0 L35,25 L5,25 Z" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <circle cx="20" cy="15" r="3" fill="#ffffff"/>
+    </g>
+    
+    <!-- Confluence (bottom right) -->
+    <g transform="translate(560, 300)">
+      <rect x="0" y="0" width="40" height="25" rx="3" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <path d="M8,8 Q20,12 32,8" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+      <path d="M8,17 Q20,13 32,17" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+    </g>
+  </g>
+  
+  <!-- Data flow connections -->
+  <g stroke="#2ecc71" stroke-width="3" fill="none" opacity="0.7">
+    <!-- From Slack to center -->
+    <path d="M240,112 Q320,140 340,170"/>
+    <!-- From GitHub to center -->
+    <path d="M560,112 Q480,140 460,170"/>
+    <!-- From center to Google Drive -->
+    <path d="M340,230 Q320,260 240,312"/>
+    <!-- From center to Confluence -->
+    <path d="M460,230 Q480,260 560,312"/>
+  </g>
+  
+  <!-- Automation indicators -->
+  <g fill="#2ecc71" opacity="0.8">
+    <!-- Animated dots along paths -->
+    <circle cx="280" cy="135" r="3"/>
+    <circle cx="310" cy="150" r="2"/>
+    <circle cx="520" cy="135" r="3"/>
+    <circle cx="490" cy="150" r="2"/>
+    <circle cx="310" cy="250" r="3"/>
+    <circle cx="280" cy="275" r="2"/>
+    <circle cx="490" cy="250" r="3"/>
+    <circle cx="520" cy="275" r="2"/>
+  </g>
+  
+  <!-- Process workflow indicators -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="60" height="40" rx="5" fill="rgba(46,204,113,0.2)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="30" y="15" text-anchor="middle" fill="#2ecc71" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      Employee
+    </text>
+    <text x="30" y="28" text-anchor="middle" fill="#2ecc71" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      Onboarding
+    </text>
+  </g>
+  
+  <g transform="translate(640, 200)">
+    <rect x="0" y="0" width="60" height="40" rx="5" fill="rgba(46,204,113,0.2)" stroke="#2ecc71" stroke-width="2"/>
+    <text x="30" y="15" text-anchor="middle" fill="#2ecc71" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      Compliance
+    </text>
+    <text x="30" y="28" text-anchor="middle" fill="#2ecc71" font-family="Arial, sans-serif" font-size="10" font-weight="bold">
+      Monitoring
+    </text>
+  </g>
+  
+  <!-- Scrum master indicator -->
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="80" height="20" rx="10" fill="rgba(46,204,113,0.2)" stroke="#2ecc71" stroke-width="1"/>
+    <text x="40" y="14" text-anchor="middle" fill="#2ecc71" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      Scrum Master
+    </text>
+  </g>
+  
+  <!-- Company-wide deployment indicator -->
+  <g transform="translate(670, 350)">
+    <rect x="0" y="0" width="80" height="20" rx="10" fill="rgba(46,204,113,0.2)" stroke="#2ecc71" stroke-width="1"/>
+    <text x="40" y="14" text-anchor="middle" fill="#2ecc71" font-family="Arial, sans-serif" font-size="12" font-weight="bold">
+      Enterprise
+    </text>
+  </g>
+  
+  <!-- Binary workflow data -->
+  <g fill="#2ecc71" opacity="0.3" font-family="monospace" font-size="10">
+    <text x="50" y="50">QMS_PROC_01</text>
+    <text x="650" y="50">AUDIT_LOG_24</text>
+    <text x="50" y="150">WORKFLOW_OK</text>
+    <text x="650" y="150">COMPLIANCE_OK</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold" opacity="0.9">
+    ISO 13485 Quality Management MCP
+  </text>
+</svg>

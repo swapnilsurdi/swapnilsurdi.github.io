@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c9880def.css",
-    "main.js": "/static/js/main.df35196f.js",
+    "main.js": "/static/js/main.6dccb690.js",
+    "static/media/opensesame_website.jpg": "/static/media/opensesame_website.6537727feeb2047f465e.jpg",
     "static/media/earth-night.jpg": "/static/media/earth-night.ae8ebf5afbeb23f30b7f.jpg",
     "static/media/logo.gif": "/static/media/logo.1aa378ef699f0aae8c14.gif",
     "static/media/uscgscm_website.png": "/static/media/uscgscm_website.4631b4f9d2fff7f5a884.png",
@@ -24,14 +25,21 @@
     "static/media/tendermint.png": "/static/media/tendermint.e260ca494be547b49643.png",
     "static/media/django.png": "/static/media/django.4c677b78d12c96ea7add.png",
     "static/media/angularjs.png": "/static/media/angularjs.cb6ff37fa4b1ec2abf32.png",
+    "static/media/mesh-network-topology.svg": "/static/media/mesh-network-topology.f6065a58b3fd5d8949f6bf974e6d8989.svg",
+    "static/media/mcp-quality-management.svg": "/static/media/mcp-quality-management.75c51cf8e6a39264f5c86a5175abf9ec.svg",
+    "static/media/mcp-healthcare-data.svg": "/static/media/mcp-healthcare-data.cda4ef9173ba99cfcb7ad1b5a1da7f27.svg",
+    "static/media/mcp-personal-assistant.svg": "/static/media/mcp-personal-assistant.0d84c8093c0a746f52bb1365d07b8b26.svg",
+    "static/media/mri-viewer-dashboard.svg": "/static/media/mri-viewer-dashboard.2b26f040101be8074ccf1e1cf66fd322.svg",
+    "static/media/default-tech-project.svg": "/static/media/default-tech-project.6202f97aa693b5dc5425bc015a7910a1.svg",
     "static/media/bootstrap-logo.svg": "/static/media/bootstrap-logo.2612b5ec079b82422b4ea7672ac449fa.svg",
     "index.html": "/index.html",
+    "static/media/default-tech-icon.svg": "/static/media/default-tech-icon.542295cc7c80bbe2d02415d9a10e3ccd.svg",
     "static/media/spring.svg": "/static/media/spring.fc2e1a276a18a61c6c54b2c444a2a295.svg",
     "main.c9880def.css.map": "/static/css/main.c9880def.css.map",
-    "main.df35196f.js.map": "/static/js/main.df35196f.js.map"
+    "main.6dccb690.js.map": "/static/js/main.6dccb690.js.map"
   },
   "entrypoints": [
     "static/css/main.c9880def.css",
-    "static/js/main.df35196f.js"
+    "static/js/main.6dccb690.js"
   ]
 }
