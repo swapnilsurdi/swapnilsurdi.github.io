@@ -1,37 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.76a323e7.css",
-    "main.js": "/static/js/main.098084de.js",
-    "static/media/sojas_website.png": "/static/media/sojas_website.509bce8ded445819c99b.png",
-    "static/media/uscgscm_website.png": "/static/media/uscgscm_website.aa02b70cea6a55c1c74a.png",
+    "main.css": "/static/css/main.c9880def.css",
+    "main.js": "/static/js/main.df35196f.js",
     "static/media/earth-night.jpg": "/static/media/earth-night.ae8ebf5afbeb23f30b7f.jpg",
-    "static/media/freelicous_all.png": "/static/media/freelicous_all.c7a74cac688abbff1aa7.png",
     "static/media/logo.gif": "/static/media/logo.1aa378ef699f0aae8c14.gif",
-    "static/media/minissan_website.png": "/static/media/minissan_website.0e50727cac14b9d2cd7d.png",
+    "static/media/uscgscm_website.png": "/static/media/uscgscm_website.4631b4f9d2fff7f5a884.png",
+    "static/media/blockchain_space.jpg": "/static/media/blockchain_space.36fd47418cac6ecfd269.jpg",
     "static/media/profile_image.jpg": "/static/media/profile_image.4413f0831d18006d56a3.jpg",
     "static/media/reactjs.png": "/static/media/reactjs.396d3bf92446f2cdbbe3.png",
+    "static/media/stars-pattern.png": "/static/media/stars-pattern.443ae0ae220eea397ffa.png",
+    "static/media/mesh_network.jpg": "/static/media/mesh_network.e41c4ef390170906c285.jpg",
     "static/media/wordpress.png": "/static/media/wordpress.30010e01dc3e26f61717.png",
     "static/media/python.png": "/static/media/python.a066a82a67073d586199.png",
     "static/media/nodejs.png": "/static/media/nodejs.c2e22c634a7336cbe298.png",
     "static/media/jquery.png": "/static/media/jquery.bcda659c73843bf85094.png",
+    "static/media/freelicous_all.png": "/static/media/freelicous_all.a5475d8921dc485b9711.png",
+    "static/media/minissan_website.png": "/static/media/minissan_website.a5475d8921dc485b9711.png",
+    "static/media/sojas_website.png": "/static/media/sojas_website.a5475d8921dc485b9711.png",
+    "static/media/search_engine.png": "/static/media/search_engine.9a7a61e3f62abf13c300.png",
     "static/media/material_ui_logo.png": "/static/media/material_ui_logo.2eda7124810131e26c9f.png",
     "static/media/rabbitmq.png": "/static/media/rabbitmq.8ae965757acbddb36aef.png",
     "static/media/ionic.png": "/static/media/ionic.02ff14212722b1e6285c.png",
     "static/media/tendermint.png": "/static/media/tendermint.e260ca494be547b49643.png",
     "static/media/django.png": "/static/media/django.4c677b78d12c96ea7add.png",
-    "static/media/lssgreen.png": "/static/media/lssgreen.3b9595e8a988338642e1.png",
-    "static/media/search_engine.png": "/static/media/search_engine.5b0dad8eebe3c22b491f.png",
     "static/media/angularjs.png": "/static/media/angularjs.cb6ff37fa4b1ec2abf32.png",
-    "static/media/monday.svg": "/static/media/monday.553ebfb8d41cc89bf22276ee321c2917.svg",
-    "static/media/instagram.svg": "/static/media/instagram.a58d47cd74f0f117c12ad64b40bd7e91.svg",
     "static/media/bootstrap-logo.svg": "/static/media/bootstrap-logo.2612b5ec079b82422b4ea7672ac449fa.svg",
     "index.html": "/index.html",
     "static/media/spring.svg": "/static/media/spring.fc2e1a276a18a61c6c54b2c444a2a295.svg",
-    "main.76a323e7.css.map": "/static/css/main.76a323e7.css.map",
-    "main.098084de.js.map": "/static/js/main.098084de.js.map"
+    "main.c9880def.css.map": "/static/css/main.c9880def.css.map",
+    "main.df35196f.js.map": "/static/js/main.df35196f.js.map"
   },
   "entrypoints": [
-    "static/css/main.76a323e7.css",
-    "static/js/main.098084de.js"
+    "static/css/main.c9880def.css",
+    "static/js/main.df35196f.js"
   ]
 }
