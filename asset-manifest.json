@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.be3a9495.css",
-    "main.js": "/static/js/main.9b4e2b83.js",
+    "main.css": "/static/css/main.6236dc83.css",
+    "main.js": "/static/js/main.cb7c89a4.js",
     "static/js/453.2b778a3b.chunk.js": "/static/js/453.2b778a3b.chunk.js",
     "static/media/opensesame_website.jpg": "/static/media/opensesame_website.6537727feeb2047f465e.jpg",
     "static/media/earth-night.jpg": "/static/media/earth-night.ae8ebf5afbeb23f30b7f.jpg",
     "static/media/uscgscm_website.png": "/static/media/uscgscm_website.4631b4f9d2fff7f5a884.png",
     "static/media/blockchain_space.jpg": "/static/media/blockchain_space.36fd47418cac6ecfd269.jpg",
-    "static/media/profile_image.jpg": "/static/media/profile_image.4413f0831d18006d56a3.jpg",
     "static/media/reactjs.png": "/static/media/reactjs.396d3bf92446f2cdbbe3.png",
     "static/media/stars-pattern.png": "/static/media/stars-pattern.443ae0ae220eea397ffa.png",
     "static/media/mesh_network.jpg": "/static/media/mesh_network.e41c4ef390170906c285.jpg",
@@ -35,12 +34,12 @@
     "index.html": "/index.html",
     "static/media/default-tech-icon.svg": "/static/media/default-tech-icon.542295cc7c80bbe2d02415d9a10e3ccd.svg",
     "static/media/spring.svg": "/static/media/spring.fc2e1a276a18a61c6c54b2c444a2a295.svg",
-    "main.be3a9495.css.map": "/static/css/main.be3a9495.css.map",
-    "main.9b4e2b83.js.map": "/static/js/main.9b4e2b83.js.map",
+    "main.6236dc83.css.map": "/static/css/main.6236dc83.css.map",
+    "main.cb7c89a4.js.map": "/static/js/main.cb7c89a4.js.map",
     "453.2b778a3b.chunk.js.map": "/static/js/453.2b778a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3a9495.css",
-    "static/js/main.9b4e2b83.js"
+    "static/css/main.6236dc83.css",
+    "static/js/main.cb7c89a4.js"
   ]
 }
