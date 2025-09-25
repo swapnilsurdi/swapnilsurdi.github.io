@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6236dc83.css",
-    "main.js": "/static/js/main.cb7c89a4.js",
+    "main.css": "/static/css/main.01ff62f3.css",
+    "main.js": "/static/js/main.cabf116b.js",
     "static/js/453.2b778a3b.chunk.js": "/static/js/453.2b778a3b.chunk.js",
     "static/media/opensesame_website.jpg": "/static/media/opensesame_website.6537727feeb2047f465e.jpg",
     "static/media/earth-night.jpg": "/static/media/earth-night.ae8ebf5afbeb23f30b7f.jpg",
@@ -34,12 +34,12 @@
     "index.html": "/index.html",
     "static/media/default-tech-icon.svg": "/static/media/default-tech-icon.542295cc7c80bbe2d02415d9a10e3ccd.svg",
     "static/media/spring.svg": "/static/media/spring.fc2e1a276a18a61c6c54b2c444a2a295.svg",
-    "main.6236dc83.css.map": "/static/css/main.6236dc83.css.map",
-    "main.cb7c89a4.js.map": "/static/js/main.cb7c89a4.js.map",
+    "main.01ff62f3.css.map": "/static/css/main.01ff62f3.css.map",
+    "main.cabf116b.js.map": "/static/js/main.cabf116b.js.map",
     "453.2b778a3b.chunk.js.map": "/static/js/453.2b778a3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6236dc83.css",
-    "static/js/main.cb7c89a4.js"
+    "static/css/main.01ff62f3.css",
+    "static/js/main.cabf116b.js"
   ]
 }
