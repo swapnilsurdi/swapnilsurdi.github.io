@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.01ff62f3.css",
-    "main.js": "/static/js/main.cabf116b.js",
+    "main.js": "/static/js/main.e60d588f.js",
     "static/js/453.2b778a3b.chunk.js": "/static/js/453.2b778a3b.chunk.js",
     "static/media/opensesame_website.jpg": "/static/media/opensesame_website.6537727feeb2047f465e.jpg",
     "static/media/earth-night.jpg": "/static/media/earth-night.ae8ebf5afbeb23f30b7f.jpg",
@@ -24,6 +24,7 @@
     "static/media/tendermint.png": "/static/media/tendermint.e260ca494be547b49643.png",
     "static/media/django.png": "/static/media/django.4c677b78d12c96ea7add.png",
     "static/media/angularjs.png": "/static/media/angularjs.cb6ff37fa4b1ec2abf32.png",
+    "static/media/mcp-cache.svg": "/static/media/mcp-cache.d2fca024da2b83bfbe992979770ed040.svg",
     "static/media/mesh-network-topology.svg": "/static/media/mesh-network-topology.f6065a58b3fd5d8949f6bf974e6d8989.svg",
     "static/media/mcp-quality-management.svg": "/static/media/mcp-quality-management.75c51cf8e6a39264f5c86a5175abf9ec.svg",
     "static/media/mcp-healthcare-data.svg": "/static/media/mcp-healthcare-data.cda4ef9173ba99cfcb7ad1b5a1da7f27.svg",
@@ -35,11 +36,11 @@
     "static/media/default-tech-icon.svg": "/static/media/default-tech-icon.542295cc7c80bbe2d02415d9a10e3ccd.svg",
     "static/media/spring.svg": "/static/media/spring.fc2e1a276a18a61c6c54b2c444a2a295.svg",
     "main.01ff62f3.css.map": "/static/css/main.01ff62f3.css.map",
-    "main.cabf116b.js.map": "/static/js/main.cabf116b.js.map",
+    "main.e60d588f.js.map": "/static/js/main.e60d588f.js.map",
     "453.2b778a3b.chunk.js.map": "/static/js/453.2b778a3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01ff62f3.css",
-    "static/js/main.cabf116b.js"
+    "static/js/main.e60d588f.js"
   ]
 }
