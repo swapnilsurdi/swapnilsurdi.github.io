@@ -1,0 +1,108 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="circuitGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#5b73e8;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Circuit pattern -->
+  <g stroke="url(#circuitGradient)" stroke-width="2" fill="none" opacity="0.6">
+    <!-- Horizontal lines -->
+    <line x1="100" y1="100" x2="300" y2="100"/>
+    <line x1="500" y1="150" x2="700" y2="150"/>
+    <line x1="150" y1="250" x2="350" y2="250"/>
+    <line x1="450" y1="300" x2="650" y2="300"/>
+    
+    <!-- Vertical lines -->
+    <line x1="300" y1="100" x2="300" y2="200"/>
+    <line x1="500" y1="150" x2="500" y2="250"/>
+    <line x1="650" y1="150" x2="650" y2="300"/>
+    <line x1="150" y1="200" x2="150" y2="250"/>
+    
+    <!-- Connection nodes -->
+    <circle cx="300" cy="100" r="4" fill="#00d4ff"/>
+    <circle cx="300" cy="200" r="4" fill="#00d4ff"/>
+    <circle cx="500" cy="150" r="4" fill="#00d4ff"/>
+    <circle cx="500" cy="250" r="4" fill="#00d4ff"/>
+    <circle cx="650" cy="150" r="4" fill="#00d4ff"/>
+    <circle cx="150" cy="250" r="4" fill="#00d4ff"/>
+  </g>
+  
+  <!-- Central tech icon -->
+  <g transform="translate(350, 150)">
+    <!-- CPU/Chip outline -->
+    <rect x="0" y="0" width="100" height="100" rx="5" fill="none" stroke="#ffffff" stroke-width="3"/>
+    <rect x="15" y="15" width="70" height="70" rx="3" fill="rgba(255,255,255,0.1)" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- Circuit traces inside chip -->
+    <g stroke="#ffffff" stroke-width="1.5" opacity="0.8">
+      <line x1="25" y1="35" x2="75" y2="35"/>
+      <line x1="25" y1="50" x2="75" y2="50"/>
+      <line x1="25" y1="65" x2="75" y2="65"/>
+      <line x1="35" y1="25" x2="35" y2="75"/>
+      <line x1="50" y1="25" x2="50" y2="75"/>
+      <line x1="65" y1="25" x2="65" y2="75"/>
+    </g>
+    
+    <!-- External pins -->
+    <g fill="#ffffff">
+      <!-- Top pins -->
+      <rect x="20" y="-5" width="3" height="5"/>
+      <rect x="30" y="-5" width="3" height="5"/>
+      <rect x="40" y="-5" width="3" height="5"/>
+      <rect x="50" y="-5" width="3" height="5"/>
+      <rect x="60" y="-5" width="3" height="5"/>
+      <rect x="70" y="-5" width="3" height="5"/>
+      
+      <!-- Right pins -->
+      <rect x="100" y="20" width="5" height="3"/>
+      <rect x="100" y="30" width="5" height="3"/>
+      <rect x="100" y="40" width="5" height="3"/>
+      <rect x="100" y="50" width="5" height="3"/>
+      <rect x="100" y="60" width="5" height="3"/>
+      <rect x="100" y="70" width="5" height="3"/>
+      
+      <!-- Bottom pins -->
+      <rect x="20" y="100" width="3" height="5"/>
+      <rect x="30" y="100" width="3" height="5"/>
+      <rect x="40" y="100" width="3" height="5"/>
+      <rect x="50" y="100" width="3" height="5"/>
+      <rect x="60" y="100" width="3" height="5"/>
+      <rect x="70" y="100" width="3" height="5"/>
+      
+      <!-- Left pins -->
+      <rect x="-5" y="20" width="5" height="3"/>
+      <rect x="-5" y="30" width="5" height="3"/>
+      <rect x="-5" y="40" width="5" height="3"/>
+      <rect x="-5" y="50" width="5" height="3"/>
+      <rect x="-5" y="60" width="5" height="3"/>
+      <rect x="-5" y="70" width="5" height="3"/>
+    </g>
+  </g>
+  
+  <!-- Floating data points -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="150" cy="80" r="2"/>
+    <circle cx="650" cy="80" r="2"/>
+    <circle cx="120" cy="320" r="2"/>
+    <circle cx="680" cy="320" r="2"/>
+  </g>
+  
+  <!-- Binary code pattern background -->
+  <g fill="#ffffff" opacity="0.1" font-family="monospace" font-size="12">
+    <text x="50" y="50">01001010</text>
+    <text x="200" y="70">11010110</text>
+    <text x="550" y="60">10110001</text>
+    <text x="600" y="350">01101100</text>
+    <text x="100" y="350">11001001</text>
+  </g>
+</svg>
